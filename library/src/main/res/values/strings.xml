@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bga_calendar_sunday">日</string>
+    <string name="bga_calendar_monday">一</string>
+    <string name="bga_calendar_tuesday">二</string>
+    <string name="bga_calendar_wednesday">三</string>
+    <string name="bga_calendar_thursday">四</string>
+    <string name="bga_calendar_friday">五</string>
+    <string name="bga_calendar_saturday">六</string>
+
+    <string name="bga_calendar_last_month">上一个月</string>
+    <string name="bga_calendar_next_month">下一个月</string>
+</resources>

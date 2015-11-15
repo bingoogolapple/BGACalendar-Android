@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="bga_calendar_headerTextColor">#ffffff</color>
+    <color name="bga_calendar_functionTextColor">#ffffff</color>
+    <color name="bga_calendar_dayTextColor">#000000</color>
 
+    <color name="bga_calendar_headerBackgroundColor">#f57257</color>
+    <color name="bga_calendar_monthViewBackgroundColor">#ffffff</color>
+    <color name="bga_calendar_selectedBackgroundColor">#cccccc</color>
+
+    <color name="bga_calendar_topBackgroundColor">#33ff0000</color>
+    <color name="bga_calendar_centerBackgroundColor">#3300ff00</color>
+    <color name="bga_calendar_bottomBackgroundColor">#330000ff</color>
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bga_calendar_functionTextSize">16sp</dimen>
+    <dimen name="bga_calendar_headerTextSize">14sp</dimen>
+    <dimen name="bga_calendar_dayTextSize">10sp</dimen>
+
+    <dimen name="bga_calendar_headerGap">10dp</dimen>
+</resources>

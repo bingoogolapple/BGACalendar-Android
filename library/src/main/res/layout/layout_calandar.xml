@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BGACalendarMatchWrap.Vertical">
+
+    <RelativeLayout
+        style="@style/BGACalendarMatchWrap.Horizontal"
+        android:background="@color/bga_calendar_headerBackgroundColor">
+
+        <TextView
+            android:id="@+id/tv_layout_calandar_last_month"
+            style="@style/BGACalendarFunctionTv"
+            android:layout_centerVertical="true"
+            android:text="@string/bga_calendar_last_month" />
+
+        <LinearLayout
+            style="@style/BGACalendarWrapWrap.Horizontal"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/tv_layout_calandar_month"
+                style="@style/BGACalendarWrapWrap"
+                android:textColor="@color/bga_calendar_headerTextColor"
+                android:textSize="@dimen/bga_calendar_headerTextSize"
+                tools:text="十一月" />
+
+            <TextView
+                android:id="@+id/tv_layout_calandar_year"
+                style="@style/BGACalendarWrapWrap"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/bga_calendar_headerTextColor"
+                android:textSize="@dimen/bga_calendar_headerTextSize"
+                tools:text="2015" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_layout_calandar_next_month"
+            style="@style/BGACalendarFunctionTv"
+            android:layout_alignParentRight="true"
+            android:text="@string/bga_calendar_next_month" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/BGACalendarMatchWrap.Horizontal"
+        android:background="@color/bga_calendar_headerBackgroundColor"
+        android:paddingBottom="@dimen/bga_calendar_headerGap"
+        android:paddingTop="@dimen/bga_calendar_headerGap">
+
+        <TextView
+            style="@style/BGACalendarWeekTv"
+            android:text="@string/bga_calendar_sunday" />
+
+        <TextView
+            style="@style/BGACalendarWeekTv"
+            android:text="@string/bga_calendar_monday" />
+
+        <TextView
+            style="@style/BGACalendarWeekTv"
+            android:text="@string/bga_calendar_tuesday" />
+
+        <TextView
+            style="@style/BGACalendarWeekTv"
+            android:text="@string/bga_calendar_wednesday" />
+
+        <TextView
+            style="@style/BGACalendarWeekTv"
+            android:text="@string/bga_calendar_thursday" />
+
+        <TextView
+            style="@style/BGACalendarWeekTv"
+            android:text="@string/bga_calendar_friday" />
+
+        <TextView
+            style="@style/BGACalendarWeekTv"
+            android:text="@string/bga_calendar_saturday" />
+    </LinearLayout>
+
+    <cn.bingoogolapple.calendar.BGAMonthView
+        android:id="@+id/mv_layout_calandar_month"
+        style="@style/BGACalendarMatchWrap"
+        android:background="@color/bga_calendar_monthViewBackgroundColor" />
+
+</LinearLayout>
